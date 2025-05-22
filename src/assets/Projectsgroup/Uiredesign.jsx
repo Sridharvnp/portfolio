@@ -1,0 +1,38 @@
+import React from "react";
+import { Link, Outlet } from "react-router-dom";
+import robo from "../images/profile.png";
+import Gallery from "../pages/Gallery";
+import ProjectName from "../pages/ProjectName";
+import PortfolioDriveButton from "./Drivebutton";
+
+function Redesign({ projectName }) {
+  return (
+    <div className="relative bg-gray-400 p-2 rounded-xl w-80 overflow-hidden">
+      {/* Image */}
+      <img
+        src={robo}
+        alt="Project"
+        className="rounded-xl w-full h-60 object-cover"
+      />
+      {/* Link */}
+      <Link
+        to="gallery"
+        className="text-white font-bold relative -bottom-0 right-3 float-right z-10 underline"
+      >
+        To View
+      </Link>
+
+      {/* Curved cut-out */}
+      <div className=" absolute bottom-0 right-0 w-24 h-12 bg-teal-400 z-0 rounded-tl-2xl"></div>
+
+      {/* Name */}
+      <h1 className="font-bold text-yellow-200 text-lg absolute top-36   w-full h-24 z-10 flex items-center justify-center bg-gradient-to-t from-transparent to-gray-200 rounded-xl hover:from-gray-400">
+        figma Designs
+      </h1>
+
+      <Outlet />
+    </div>
+  );
+}
+
+export default Redesign;
