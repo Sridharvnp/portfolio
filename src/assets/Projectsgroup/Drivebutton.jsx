@@ -3,8 +3,7 @@ import robo from "../images/profile.png";
 
 const PortfolioDriveButton = () => {
   const driveLink =
-    "https://drive.google.com/drive/folders/19eND4O2F5Iern824k6dsdND98ZjcG4bO?usp=sharing";
-
+"https://www.figma.com/design/zc3mklsp6VdBjRC2PSrYqf/Living-pool-project-Ui?node-id=0-1&t=jFN4w38D460g2EWu-1";
   return (
     <div className="relative bg-gray-400 p-2 rounded-xl w-80 overflow-hidden">
       {/* Image */}
@@ -17,7 +16,7 @@ const PortfolioDriveButton = () => {
       <div className=" absolute bottom-0 right-0 w-24 h-12 bg-teal-400 z-0 rounded-tl-2xl"></div>
 
       <h2 className="font-bold text-yellow-200 text-lg absolute top-36   w-full h-24 z-10 flex items-center justify-center bg-gradient-to-t from-transparent to-gray-200 rounded-xl hover:from-gray-400">
-        View Design Work(Drive)
+        UI Design <br /> (Living Pool)
       </h2>
 
       <a

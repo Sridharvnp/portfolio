@@ -4,17 +4,17 @@ import "aos/dist/aos.css";
 
 const Usages = [
   {
-    Percentage: "70%",
+    Percentage: "50%",
     language: "CSS Snippets",
     Remain: "JS & Logic",
   },
   {
-    Percentage: "50%",
+    Percentage: "30%",
     language: "TYPOGRAPHY",
     Remain: "Layout",
   },
   {
-    Percentage: "60%",
+    Percentage: "20%",
     language: "Figma",
     Remain: "UI Principles",
   },
