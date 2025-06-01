@@ -3,7 +3,7 @@ import robo from "../images/profile.png";
 
 const PortfolioDriveButton = () => {
   const driveLink =
-"https://www.figma.com/design/zc3mklsp6VdBjRC2PSrYqf/Living-pool-project-Ui?node-id=0-1&t=jFN4w38D460g2EWu-1";
+"https://www.figma.com/proto/zc3mklsp6VdBjRC2PSrYqf/Living-pool-project-Ui?page-id=0%3A1&node-id=7-590&p=f&viewport=552%2C298%2C0.08&t=TX7XITLH5ArKrcvk-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=7%3A590";
   return (
     <div className="relative bg-gray-400 p-2 rounded-xl w-80 overflow-hidden">
       {/* Image */}
