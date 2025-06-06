@@ -16,7 +16,7 @@ const PortfolioDriveButton = () => {
       <div className=" absolute bottom-0 right-0 w-24 h-12 bg-teal-400 z-0 rounded-tl-2xl"></div>
 
       <h2 className="font-bold text-yellow-200 text-lg absolute top-36   w-full h-24 z-10 flex items-center justify-center bg-gradient-to-t from-transparent to-gray-200 rounded-xl hover:from-gray-400">
-        UI Design <br /> (Living Pool)
+        UI PROTOTYPE <br /> (Living Pool)
       </h2>
 
       <a

@@ -15,7 +15,7 @@ const LpProject = () => {
       {/* Curved cut-out */}
       <div className=" absolute bottom-0 right-0 w-24 h-12 bg-teal-400 z-0 rounded-tl-2xl"></div>
       <h2 className="font-bold text-yellow-200 text-lg absolute top-36   w-full h-24 z-10 flex items-center justify-center bg-gradient-to-t from-transparent to-gray-200 rounded-xl hover:from-gray-400">
-        Living Pool
+        LIVING POOL
       </h2>
 
       <a

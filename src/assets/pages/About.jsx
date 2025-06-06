@@ -1,5 +1,6 @@
 import React from "react";
 import robo from "../images/profile.png";
+import pdf from "../images/sridhar - UPDATED RESUME.pdf"
 
 function About() {
   return (
@@ -35,7 +36,7 @@ function About() {
                 Contact Me
               </a>
               <a
-                href="/resume.pdf"
+                href="./images/sridhar - UPDATED RESUME.pdf"
                 download
                 className="px-6 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-100 transition"
               >
