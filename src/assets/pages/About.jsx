@@ -19,6 +19,7 @@ function About() {
           
           {/* Text Content */}
           <div className="w-full md:w-1/2 text-center md:text-left">
+          
             <div className="text-3xl sm:text-4xl font-semibold mb-4">
               I'm a <span className="text-blue-600">Web Developer</span>
             </div>
